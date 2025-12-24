@@ -1,0 +1,10 @@
+services:
+  ubuntu:
+    image: secos-ng:latest
+    command: /bin/sh
+    tty: true
+    stdin_open: true
+
+    volumes: 
+      - .:/app
+
